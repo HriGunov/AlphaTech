@@ -1,3 +1,29 @@
+// shows "Purchasing divs"
+function hide_buy() {
+    $('.buyBG').css({
+        'visibility': 'hidden'
+    });
+    $('.buyFormDiv').css({
+        'visibility': 'hidden'
+    });
+    $('.buyForm').css({
+        'visibility': 'hidden'
+    });
+}
+
+// shows "Purchasing divs"
+function  show_buy() {
+    $('.buyBG').css({
+        'visibility': 'visible' });
+    $('.buyFormDiv').css({
+        'visibility': 'visible' });
+    $('.buyForm').css({
+        'visibility': 'visible' });
+}
+
+function timeout_init() {
+    setTimeout('hide_buy()', 1500);
+}
 $(document).ready(function() {
     var offset=350, // At what pixels show Back to Top Button
         scrollDuration=500; // Duration of scrolling to top
@@ -8,13 +34,27 @@ $(document).ready(function() {
             $('.top').fadeOut(500); // Time(in Milliseconds) of disappearing of Button when scrolling up.
         }
     });
-
     // Smooth animation when scrolling
     $('.top').click(function(event) {
         event.preventDefault();
         $('html, body').animate({
             scrollTop: 0}, scrollDuration);
-    })
-});
+    });
+
+    $('#startBuy').click(function() {
+        show_buy()
+    });
+
+    $('.buyBG').click(function() {
+        hide_buy()
+    });
+
+    });
+
+
+
+
+
+
 
 

@@ -16,10 +16,10 @@
 </head>
 <body>
 <header>
-        <a href="../../index.html">
+    <a href="../../index.html">
         <div class="Banner">
             <div class="Logo">
-                <img src="../../Images/logo.png" class="LogoImage" >
+                <img src="../../Images/logo.png"  class="LogoImage" >
                 <h1>AlphaTech</h1>
             </div>
         </div>
@@ -69,7 +69,7 @@
                 <div class="OrderBox"><p class="Warranty" > Стандартна гаранция: 12 месеца</p><p class="Shiping"> В наличност | Безплатна Доставка </p>
 
                  <p class="Price">Цена: 590 лв.</p>
-                    <button class="emg-button buy-button">Купи</button>
+                   <button id="startBuy" class="emg-button buy-button">Купи</button>
                 </div>
             </div>
             <div class="ProductDescription">
@@ -147,10 +147,10 @@
             </div>
         </div>
     </div>
-</main>
+<div class="buyBG"></div><div class="buyFormDiv"><form class="buyForm" id="buyForm"  action=""><p>Име:</p><input type="text" name="Name"><p>Фамилия:</p><input type="text" name="Surname"><p>E-Mail:</p><input type="email"><p>Пощенски код:</p><input type="text" pattern="[0-9]{4}" name="PostCode" title="Въведете 4-ри цифрен пощенски код." ><p>Адрес на доставка:</p><textarea name="Adress" form="buyForm">Въведете адрес тук...</textarea><p>Телефон:</p><input type="text" pattern="[0-9]{10}" name="Phone" title="Моля въведете мобилен телефон." ><p class="FormPrice">Цена: 250 лв.</p><input id="buyClear" type="reset" onclick="timeout_init()"  value="Поръчай"/></form></div></main>
 <footer class="FooterWrapper">
 
-    <p>Created by Hristo Gunov</p>
+   <a href="http://gunov.net"><p>Created by Hristo Gunov</p></a>
     <a href="#" class="top">&uarr;</a>
 </footer>
 </body>

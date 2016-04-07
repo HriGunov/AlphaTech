@@ -1,2 +1,2 @@
-# AlphaTech
-Online shop that I'am doing for school
+# AlphaTech 
+Concept e-commerce site that I'am doing for school.

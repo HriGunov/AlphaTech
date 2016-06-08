@@ -165,6 +165,8 @@ nav[role="custom-dropdown"] ul > li:hover > a {
 
 /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 
+
+
 /* small screens */
 @media screen and (max-width: 44em) {
     html,
@@ -409,7 +411,7 @@ nav[role="custom-dropdown"] ul > li:hover > a {
 .column-left{ float: left; width: 33%; }
 .column-right{ float: right; width: 33%; }
 .column-center{ display: inline-block; width: 33%; margin-left: 6px; }
-.inner {height: 200px; line-height: 200px; padding: 5px;  margin: 5px; border-radius: 7px;background-color:aquamarine;
+.inner { height: 200px; line-height: 200px; padding: 5px;  margin: 5px; border-radius: 7px;background-color:aquamarine;
     }
 
 
@@ -440,7 +442,10 @@ nav[role="custom-dropdown"] ul > li:hover > a {
 .container2{
     width: 80%;margin: 0 auto;
 }
-
+.readSpace {
+    margin:0 auto;
+    width: 30em;
+}
 .ProductPicture {
     float: left;
 
@@ -587,8 +592,23 @@ p.Price{
     font-size:12px;
 }
 
+.Google_Map{
 
 
+    margin: 0 auto;
+    height:450px;
+    width: 450px;
+}
+.Google_Map > iframe{
+
+    margin: 0 auto;
+    height:100%;
+    width:100%;
+}
+.mailto {
+    margin: 0 auto;
+    width: 50%;
+}
 
 
 
@@ -668,10 +688,21 @@ p.Price{
 /* FooterWrapper Css */
 
 .FooterWrapper {height: 250px}
+
+
+
+
 .FooterWrapper > a >  p { text-align: right;
 position: relative;
 bottom: -218px;
 left: -26px;
+}
+
+#flashContent {
+
+    margin: 0px auto;
+    display: block;
+    width: 300px;
 }
 
 .top{

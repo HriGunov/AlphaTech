@@ -1,0 +1,117 @@
+﻿<!Doctype Html>
+<html>
+<head>
+    <link href='http://fonts.googleapis.com/css?family=Overlock:400,900italic,900,700italic,700,400italic'
+          rel='stylesheet' type='text/css'>
+    <meta charset='utf-8'>
+    <link rel="stylesheet" href="../../CSS/Reseter.css"/>
+    <link rel="stylesheet" href="../../CSS/Typography.css"/>
+    <link rel="stylesheet" href="../../CSS/MainCSS.css"/>
+
+    <script type='text/javascript' src='JavaScript/ToTopFadeIn.js'></script>
+    <meta name="viewport" content="width=device-width" />
+    <title>AlphaTech</title>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+    <script type='text/javascript' src='../../JavaScript/ToTopFadeIn.js'></script>
+</head>
+<body>
+<header>
+    <a href="../../index.html">
+        <div class="Banner">
+            <div class="Logo">
+                <img src="../../Images/logo.png"  class="LogoImage" >
+                <h1>AlphaTech</h1>
+            </div>
+        </div>
+    </a>
+    <nav role="custom-dropdown">
+        <input type="checkbox" id="button">
+        <label for="button" onclick>Меню</label>
+
+        <ul>
+            <li><a href="../../index.html">Начало</a></li>
+            <li><a href="../../magazin.html">Магазин</a></li>
+            <li><a href="#">Полезно</a></li>
+            <li><a href="#">За Нас</a></li>
+            <li><a href="#">Контакти</a></li>
+        </ul>
+    </nav>
+
+</header>
+<main class="MainWrapper">
+
+
+    <div class="Categories">
+
+        <a href="../Monitori.html" >Монитори</a>
+        <a href="../Laptops.html">Лаптопи</a>
+        <a href="../PC.html" >Компютри</a>
+        <a href="../VideoCards.html">Видео Карти</a>
+        <a href="../CPU.html"  >Процесори</a>
+        <a href="../RAM.html" >RAM Памет</a>
+        <a href="../Keyboards.html" >Клавиатури</a>
+        <a href="../Mice.html" >Мишки</a>
+        <a href="../Headphones.html" >Слушалки</a>
+        <a href="../Speakers.html" >Тонколони</a>
+        <a href="../Printers.html" class="current">Принтери</a>
+        <a href="../Others.html">Други </a>
+    </div>
+    <div class="WorkspaceInventory">
+
+
+        <div class="container2">
+            <h2>
+               Drone - Phantom 4
+            </h2>
+            <div class="ProductPicture" style="margin-bottom: 80px">
+                <img src="../../Images/Others/Phantom 4.jpg" alt="">
+            </div>
+            <div>
+
+                <div class="OrderBox"><p class="Warranty" > Стандартна гаранция: 12 месеца</p><p class="Shiping"> В наличност | Безплатна Доставка </p>
+
+                 <p class="Price">Цена: 3100 лв.</p>
+                   <button id="startBuy" class="emg-button buy-button">Купи</button>
+                </div>
+            </div>
+            <div class="ProductDescription">
+                <div class="title-sec">Описание</div>
+                <br>
+
+
+                <p> Avoid obstacles automatically.</p> <br><br>
+                <p> Track moving subjects automatically using ActiveTrack.</p> <br><br>
+                <p>TapFly lets you fly with a tap of the finger.</p> <br><br>
+                <p>Smart Return Home allows the Phantom to avoid obstacles as it returns home.</p><br><br>
+                <p>28 minute maximum flight time, maximum control range of 3.1mi (5km).</p> <br><br>
+                <p> Maximum speed of 44mph (72kmh).</p><br><br>
+                <p> Integrated gimbal for greater camera stability and smoother footage.</p> <br><br>
+                <p> Optimized Vision Positioning System raises positioning altitude up to 10 meters.</p> <br><br>
+
+                <p></p>
+                <iframe width="853" height="480" src="https://www.youtube.com/embed/JJPSSqMQajA" frameborder="0" allowfullscreen></iframe>
+                <p></p>
+                <p></p>
+
+                <div class="title-sec"></div>
+                <div class="SpectsTable">
+                    <div class="LeftColumn">
+
+                    </div>
+                    <div class="RigthColumn">
+
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+<div class="buyBG"></div><div class="buyFormDiv"><form class="buyForm" id="buyForm"  action=""><p>Име:</p><input type="text" name="Name"><p>Фамилия:</p><input type="text" name="Surname"><p>E-Mail:</p><input type="email"><p>Пощенски код:</p><input type="text" pattern="[0-9]{4}" name="PostCode" title="Въведете 4-ри цифрен пощенски код." ><p>Адрес на доставка:</p><textarea name="Adress" form="buyForm">Въведете адрес тук...</textarea><p>Телефон:</p><input type="text" pattern="[0-9]{10}" name="Phone" title="Моля въведете мобилен телефон." ><p class="FormPrice">Цена: 3100 лв.</p><input id="buyClear" type="reset" onclick="timeout_init()"  value="Поръчай"/></form></div></main>
+<footer class="FooterWrapper">
+
+   <a href="http://gunov.net"><p>Created by Hristo Gunov</p></a>
+    <a href="#" class="top">&uarr;</a>
+</footer>
+</body>
+</html>
